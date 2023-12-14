@@ -27,13 +27,13 @@ INSERT INTO produtos (tipo, nome, imagem, preco) VALUES ('Donuts', 'Donuts de Mo
 
 select * from produtos;
 
-update produtos set imagem = '../imagemldi/donutscaramelo.jpg' where id = 7;
-update produtos set imagem = '../imagemldi/donutschocolate.jpg' where id = 8;
-update produtos set imagem = '../imagemldi/donutsmorango.jpg' where id = 11;
+update produtos set imagem = '../imagemldi/donutscaramelo.jpg' where id = 6;
+update produtos set imagem = '../imagemldi/donutschocolate.jpg' where id = 13;
+update produtos set imagem = '../imagemldi/donutsmorango.jpg' where id = 5;
 
 select * from produtos;
 #delete from produtos where id >1;
-update produtos set imagem = concat("../imagemldi/donutscaramelo.jpg",imagem) where id= 1;
+#update produtos set imagem = concat("../imagemldi/donutscaramelo.jpg",imagem) where id= 1;
 
 select * from usuario;
 
