@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+}
+#cabecalho{
+	background-color: black;
+
+}
+#cabecalho img{
+
+	height: 200px;
+	width: 200px;
+}
+#cabecalho a:link{
+    text-decoration: none;
+    padding: 15px;
+    font-family: cursive;
+    font-weight: bold;
+
+    }
+
+ #cabecalho a:hover {
+    background: grey;
+    color: white;
+ }
+.container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      }
+
+        
+        .texto {
+            flex: 1;
+            color: white;
+            padding: 10px;
+            padding-left: 20px;
+            font-family: Apple Chancery, cursive;
+        }
+
+        .imagem {
+            max-width: 45%;
+            margin-left: 20px;
+        }
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.container h3{
+    animation: fade 2s ease-in-out;
+}
+#cor-logo{
+    color: grey;
+}
+@keyframes type {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.container p {
+    overflow: hidden;
+    border-right: 2px solid #000;
+    white-space: nowrap;
+    animation: type 2s steps(20);
+}
+.container p{
+    font-size: 70px;
+}
+#conteudo{
+    border-radius: 7px;
+    background-color: #A1A2A6;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    font-size: 17px;
+}
+#conteudo h2, h3{
+    text-align: center;
+}
+#conteudo p{
+    font-family: cursive;
+}
+#rodape{
+    font-family: cursive;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
